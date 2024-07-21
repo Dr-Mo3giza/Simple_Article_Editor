@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="master.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Dongle&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Simple Article Editor</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="tool-box">
+        <select name="font-name" id="font-name">
+          <option value="" selected>Choose Font --</option>
+          <option value="ubuntu">Ubuntu</option>
+          <option value="cairo">Cairo</option>
+          <option value="dongle">Dongle</option>
+        </select>
+        <span class="bold hover-style">B</span>
+        <div class="font-size-box">
+          <span class="font-min hover-style">-</span>
+          <span class="font-size"></span>
+          <span class="font-max hover-style">+</span>
+        </div>
+        <span class="invert hover-style">Invert Colors</span>
+      </div>
+      <div class="preview-box">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore in quia rerum neque laborum ab sapiente
+        accusamus, ipsam quibusdam molestias iste! Inventore possimus similique quaerat fugiat architecto exercitationem
+        ab aperiam!
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

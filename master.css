@@ -1,0 +1,88 @@
+/* Start Global Rules */
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+/* End Global Rules */
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+.container span {
+  background-color: white;
+}
+
+/* Upper Tool Box Style */
+.container .tool-box {
+  display: flex;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.container .tool-box #font-name {
+  border: none;
+  margin-right: 5px;
+  padding: 10px;
+  font-size: 18px;
+  appearance: none;
+}
+
+.container .tool-box #font-name:focus-visible {
+  outline: none;
+}
+
+.container .tool-box .bold {
+  width: 40px;
+  margin-right: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .tool-box .font-size-box {
+  display: flex;
+  margin-right: 3px;
+}
+
+.container .tool-box .font-size-box span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  margin-right: 2px;
+  font-weight: 500;
+}
+
+.container .tool-box .font-size-box .font-min {
+  cursor: pointer;
+}
+
+.container .tool-box .font-size-box .font-max {
+  cursor: pointer;
+}
+
+.container .tool-box .invert {
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* Lower Preview Box Style */
+.container .preview-box {
+  background-color: white;
+  padding: 15px;
+  line-height: 2;
+}
